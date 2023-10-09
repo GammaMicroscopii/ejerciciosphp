@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<style></style>
+	</head>
+	<body>
+		<u></u>
+	<div>
+		<form name="m__fencuesta" action="http://encuesta.php" method="post" target="_blank">
+			<h3>Lenguajes de programacion</h3>
+			<input type="radio" name="lprog" id="m_icss" value="css">
+			<label for="m_icss">Lenguaje CSS</label>
+			<input type="radio" name="lprog" id="m_iprog" value="html">
+			<label for="m_i">Lenguaje HTML<label>
+			<input type="radio" name="lprog" id="m_iphp" value="php" checked>
+			<label for="m_iphp">Lenguaje PHP</label>
+				<br><br><br>
+	
+			 <h3>Medio Transporte</h3>
+			<input type="checkbox" name="ntrans[]" id="m_ibus" value="bus">
+			<label for="m_ibus">Autobus</label>
+			<input type="checkbox" name="ntrans[]" id="m_itranvia" value="tranvia">
+			<label for="m_itranvia">Tranvia</label>
+			<input type="checkbox" name="ntrans[]" id="m_icoche" value="coche">
+			<label for="m_icoche">Coche</label>
+	
+			<br><br><br>
+	
+			<h3>Menu favorito</h3>
+			<select name="smenu[]" multiple>
+				<option value="codillo">Codillo Asado</option>
+				<option value="lasaña">lasaña</option>
+				<option value="cachopo">cachopo</option>
+				<option value="fabada">fabada</option>
+		
+			</select>
+			<br><br><br>
+	
+	
+			<input type="submit" name="ienviar" value="Enviar">
+	
+	
+	
+	
+		</label></label></form>
+		<br><br><br>
+		<div>
+			<form enctype="multipart/form-data" action="showfile.php" method="post">
+				<label for="m_">Selecciona un fichero a subir</label>
+				<br>
+				<input type="file" name="myfile" id="m_ifile">
+				<br><br>
+				<label for="m_ifile">Click aqui para subir el fichero</label>
+				<br>
+				<input type="submit" name="sfichero" value="Subir fichero">
+			</form>
+		</div>
+	</div>
+	
+	</body></html>

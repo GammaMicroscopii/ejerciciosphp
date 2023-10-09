@@ -26,7 +26,7 @@
     </li>
     <li>
       <a href="/ejemplos/<?php printf("%02d", ++$ejemplo);  ?>.php" target="_blank">Ejemplo <?php printf("%02d", $ejemplo);  ?></a>
-      Ejemolos de uso de echo y print.
+      Ejemplos de uso de echo y print.
     </li>
 
       <ul>
