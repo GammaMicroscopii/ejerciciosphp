@@ -58,7 +58,7 @@ if (isset($_POST["ienviar"]) && !empty($_POST["ienviar"])) {
             <br>
             <br>
         </div>
-        <input type="submit" name="ienviar" value="Enviar">
+        <input type="submit" name="ienviar" value="Enviar"> <!--Dónde está el onclick() en el botón enviar? Por qué se recarga la página?-->
     </form>
 
 </body>
